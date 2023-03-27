@@ -19,8 +19,8 @@ public class Ejercicio1 {
         Scanner leer = new Scanner(System.in);      
         String nombre;
         System.out.println("Ingrese su nombre");
-        nombre = leer.next();
-        System.out.println("su nombre es" + nombre);
+        nombre = leer.nextLine();
+                System.out.println("su nombre es " + nombre);
                     
 // TODO code application logic here
     }
